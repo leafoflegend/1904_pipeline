@@ -6,6 +6,6 @@ services:
 install:
   - "npm ci"
 before_script:
-  - psql -c 'create database 1904-pipeline;' -U postgres
+  - psql -c 'create database 1904pipeline;' -U postgres
 script:
   - "npm run test"
