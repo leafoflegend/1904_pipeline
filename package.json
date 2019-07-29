@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "start:dev": "./node_modules/.bin/nodemon -q src/index.js",
+    "test": "./node_modules/.bin/jest",
     "test:dev": "./node_modules/.bin/jest --watch"
   },
   "keywords": [],
