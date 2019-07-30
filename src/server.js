@@ -17,7 +17,7 @@ app.post('/tasks', async (req, res) => {
 app.get('/tasks', async (req, res) => {
   const tasks = await Task.findAll();
 
-  res.send(tasks);
+  res.send({ tasks });
 });
 
 app.get('/health', (req, res) => {
